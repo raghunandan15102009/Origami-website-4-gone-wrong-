@@ -1,0 +1,51 @@
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid;
+    background-color: green;
+    margin:30px;
+}
+
+.grid img{
+   border: solid;
+   position:relative;
+}
+
+img:hover{
+   transform:scale(1.2);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:yellowgreen;
+}
+
+.noname{
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+}
+
+a:visited{
+    color:white
+}
+
+a:link{
+    color:red;
+}
+a{
+    text-decoration:none;
+}
+
+.grid p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
